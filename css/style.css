@@ -9,5 +9,15 @@
 }
 
 h1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+h1, .sottotitolo{
     text-align: center;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
 }
