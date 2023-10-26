@@ -16,6 +16,7 @@ img{
 h1{
     margin-top: 20px;
     margin-bottom: 50px;
+    color: deeppink;
 }
 h1, .sottotitolo{
     text-align: center;
@@ -26,7 +27,7 @@ main{
 }
 .container-img{
     width: 100%;
-    border: 1px solid black;
+    
 }
 .container-img::after{
     content: "";
@@ -37,7 +38,7 @@ main{
 .box{
     width: calc(100% / 3 - 30px);
     margin: 0 15px 30px;
-    border: 1px solid black;
+    
     float: left;
 }
 .box > *{
@@ -54,4 +55,8 @@ main{
 }
 .card_img{
     width: 80px;
+}
+.info{
+    background-color: black;
+    color: white;
 }
