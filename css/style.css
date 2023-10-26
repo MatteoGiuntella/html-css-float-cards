@@ -16,16 +16,29 @@ h1, .sottotitolo{
     text-align: center;
 }
 /* main */
-.clearfix{
+main{
+    margin-top: 80px;
+}
+.container-img{
+    width: 100%;
+    border: 1px solid black;
+}
+.row{
+    float: left;
+    margin-bottom: 20px;
+    width: calc(100% / 6 - 40px);
+}
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
-main{
-    margin-top: 80px;
-}
 .row{
-    height: 80px;
-    width: 250px;
+    height: 100px;
+    width: 350px;
     border: 1px solid black;
+}
+.img2, .img5{
+    margin-left: 50px;
+    margin-right: 50px;
 }
