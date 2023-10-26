@@ -23,22 +23,18 @@ main{
     width: 100%;
     border: 1px solid black;
 }
-.row{
-    float: left;
-    margin-bottom: 20px;
-    width: calc(100% / 6 - 40px);
-}
-.clearfix::after{
+.container-img::after{
     content: "";
     display: table;
     clear: both;
 }
-.row{
+
+.box, .box2, .box5{
     height: 100px;
-    width: 350px;
+    width: 300px;
     border: 1px solid black;
+    float: left;
 }
-.img2, .img5{
-    margin-left: 50px;
-    margin-right: 50px;
+.img, .info{
+    float: left;
 }
